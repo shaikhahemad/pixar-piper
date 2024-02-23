@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./assets/piper-d.jpg") no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    
+}
+main {
+    overflow-y: auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+iframe {
+    max-width: 100%;
+    border: none;
+    align-self: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,);
+    margin: 5px;
+}
+/* .card {
+    width: 90%;
+    background: rgba(48, 39, 50, 0.5);
+    padding: 10px;
+    margin: 5px;
+} */
+.quote {
+    display: inline-block;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.quote blockquote {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    color: black;
+}
+
+.quote blockquote:before {
+    background-color: rgba(255, 255, 255, 0.4);
+    bottom: -10%;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -10%;
+    transform: rotate(-15deg) skew(5deg);
+}
+
+.quote blockquote cite {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+
+.quote blockquote cite:before {
+    content: "- ";
+}
+
+.quote blockquote > * {
+    position: relative;
+    z-index: 1;
+}
+
+.note {
+    color: red;
+    opacity: 0.8;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 2px white;
+}
+.form-nav {
+    color: blue;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.form-nav:hover {
+    color: black;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input,
+textarea {
+    margin: 5px;
+    padding: 2px;
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+botton:hover {
+    background: lightgreen;
+    color: gray;
+}
