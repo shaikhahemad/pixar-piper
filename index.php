@@ -20,8 +20,8 @@ if ($conn->connect_error) {
   <title>Pixar Piper</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-
-</head>
+  
+</head><script src="main.js"></script>
 <body>
 <main>
 
@@ -69,6 +69,7 @@ echo $row["quote"]; ?>
 </div>
 </main>
 <script>
+  /*
 $(document).ready(function(){
 $('.form').hide();
 $('.form-nav').click(function(){
@@ -77,7 +78,7 @@ $('.form').toggle();
 var text = $(this).text();
 $(this).text(text === "Open Quotes" ? "Open Form": "Open Quotes");
 });
-});
+});*/
 </script>
 </body>
 </html>
