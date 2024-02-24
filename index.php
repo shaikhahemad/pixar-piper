@@ -20,8 +20,8 @@ if ($conn->connect_error) {
   <title>Pixar Piper</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-  
-</head><script src="main.js"></script>
+  <script src="main.js"></script>
+</head>
 <body>
 <main>
 
